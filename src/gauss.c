@@ -1,4 +1,7 @@
 #include "gauss.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
 /**
  * Zwraca 0 - elimnacja zakonczona sukcesem
@@ -24,7 +27,7 @@ int eliminate(Matrix *mat, Matrix *b){
         }
     }
 
-    return 0; // Sukcess
+    return 0; // Sukces
 
 }
 
