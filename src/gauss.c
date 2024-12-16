@@ -24,7 +24,7 @@ int eliminate(Matrix *mat, Matrix *b){
         }
     }
 
-    return 0; // Sukces
+    return 0; // Sukcess
 
 }
 
